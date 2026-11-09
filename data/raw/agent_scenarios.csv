@@ -1,0 +1,8 @@
+scenario_id,customer_id,message,expected_outcome,expected_refund_inr
+S1,C0007,Please refund my order ORD-100048,REFUND,128.25
+S2,C0008,Please refund my order ORD-100067,REFUND,135.00
+S3,C0016,Please refund my order ORD-100145,ESCALATE,1999.00
+S4,C0001,Please refund my order ORD-100001,DENIED,0.00
+S5,C0003,Please refund my order ORD-100020,DENIED,0.00
+S6,C0001,Please refund my order ORD-999999,NOT_FOUND,0.00
+S7,C0001,Please process this request [LOOP],FALLBACK,0.00
